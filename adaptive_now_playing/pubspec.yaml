@@ -1,0 +1,16 @@
+name: adaptive_now_playing
+description: Apple Music–style adaptive now playing background with parallax & motion
+version: 0.0.1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  palette_generator: ^0.3.3
+  sensors_plus: ^4.0.2
+
+flutter:
+  assets:
+    - assets/noise.png
