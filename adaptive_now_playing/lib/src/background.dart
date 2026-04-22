@@ -91,13 +91,13 @@ class _AdaptiveNowPlayingState extends State<AdaptiveNowPlaying> {
         ),
 
         /// Noise overlay (static)
-        Opacity(
-          opacity: 0.03,
-          child: Image.asset(
-            'assets/noise.png',
-            repeat: ImageRepeat.repeat,
-          ),
-        ),
+        // Opacity(
+        //   opacity: 0.03,
+        //   child: Image.asset(
+        //     'assets/noise.png',
+        //     repeat: ImageRepeat.repeat,
+        //   ),
+        // ),
 
         /// Foreground UI (strongest motion)
         MotionLayer(

@@ -142,14 +142,14 @@ class _AdaptiveNowPlayingBackgroundState
         ),
 
         /// 🎞 Noise overlay (add your asset)
-        Opacity(
-          opacity: 0.03,
-          child: Image.asset(
-            'assets/noise.png',
-            fit: BoxFit.cover,
-            repeat: ImageRepeat.repeat,
-          ),
-        ),
+        // Opacity(
+        //   opacity: 0.03,
+        //   child: Image.asset(
+        //     'assets/noise.png',
+        //     fit: BoxFit.cover,
+        //     repeat: ImageRepeat.repeat,
+        //   ),
+        // ),
 
         /// 📱 Foreground content
         widget.child,
